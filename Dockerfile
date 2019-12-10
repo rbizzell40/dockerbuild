@@ -5,3 +5,4 @@ COPY requirements.txt .
 RUN pip install -qr requirements.txt
 COPY server.py .
 CMD ["python3", "./server.py"]
+LABEL architecture=x86
